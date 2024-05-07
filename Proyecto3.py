@@ -48,7 +48,7 @@ print("c) Secuencia de solicitudes c)")
 print("====================================================")
 # c) Secuencia de 20 solicitudes para mínimo costo total
 configuracion_c = [0, 1, 2, 3, 4]
-secuencia_c = [0, 1, 2, 3, 4] * 4
+secuencia_c = [0] * 20
 MTF(configuracion_c, secuencia_c)
 print("====================================================")
 print("")
